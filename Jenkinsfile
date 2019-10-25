@@ -12,4 +12,7 @@ pipeline {
             }
         }
     }
+    triggers {
+       cron '*/1 * * * *'
+    }
 }
