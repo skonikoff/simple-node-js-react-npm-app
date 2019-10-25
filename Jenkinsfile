@@ -13,6 +13,6 @@ pipeline {
         }
     }
     triggers {
-       cron '*/1 * * * *'
+       cron '*/3 * * * *'
     }
 }
